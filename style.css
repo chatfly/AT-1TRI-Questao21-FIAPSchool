@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+body{
+    background-color: #F6F6F6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px rgb(215, 214, 214); 
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    background: linear-gradient(90deg, hsla(119, 39%, 33%, 1) 0%, hsla(120, 55%, 46%, 1) 100%);
+}
+
+a{
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+}
+
+#fundoimg{
+    width: 100%;
+    height: 385px;
+}
+
+.ancoras{
+    margin: 25px;
+}
+
+#fundo{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.containermain{
+    display: flex;
+    flex-direction: row;
+}
+
+#img1{
+    width: 500px;
+}
+
+#img2{
+    width: 600px;
+}
+
+.textmain{
+    text-align: center;
+    font-size: 39px;
+    font-family: sans-serif;
+    width: 700px;
+    padding: 100px;
+    margin-left: 90px;
+    text-justify: auto;
+}
+
+strong{
+    color: rgb(37, 197, 37);
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-family: "JetBrains Mono", sans-serif;
+    text-shadow: none;
+  }
